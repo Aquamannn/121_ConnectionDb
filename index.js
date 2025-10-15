@@ -23,3 +23,6 @@ db.connect((err) => {
     console.log('Connected t0 Mysql succesfully');
 })
 
+app.listen(PORT, () => {
+    console.log(`Server is running on port http://localhost:${PORT}`);
+})
